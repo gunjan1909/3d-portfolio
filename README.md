@@ -37,3 +37,5 @@ Click on the models to interact with them and see additional information
 - [Vite docs](https://vitejs.dev/guide/)
 - [Tailwind CSS docs](https://tailwindcss.com/docs)
 - #### Other packages and libraries used can be viewed in dependencies in package.json file in root directory.
+
+- ### [Click here for download assets](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
