@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -29,9 +29,9 @@ import tech2edge from "./company/tech2edge.jpg";
 import datastack from "./company/datastack.jpg";
 
 //experiences items
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import healthmanagement from "./healthmanagement.png";
+import streamchat from "./streamchat.png";
+import portfoliotemplate from "./portfoliotemplate.png";
 
 export {
   logo,
@@ -57,4 +57,7 @@ export {
   typescript,
   tech2edge,
   datastack,
+  healthmanagement,
+  streamchat,
+  portfoliotemplate,
 };
