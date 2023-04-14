@@ -2,6 +2,8 @@
 
 This is a portfolio website showcasing 3D models made using Three.js and React.
 
+## [View Deployment](https://www.google.com)
+
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/gunjan1909/3d-portfolio.git`
@@ -17,14 +19,14 @@ This is a portfolio website showcasing 3D models made using Three.js and React.
 
 ## Features
 
-Showcases 3D models in an interactive and visually appealing manner
-Responsive design for optimal viewing on different devices
+Showcases 3D models in an interactive and visually appealing manner <br>
+Responsive design for optimal viewing on different devices<br>
 Smooth animations and transitions for a seamless user experience
 
 ## Usage
 
-Navigate to the deployed website
-Use your mouse to drag and rotate the 3D models
+Navigate to the deployed website <br>
+Use your mouse to drag and rotate the 3D models<br>
 Click on the models to interact with them and see additional information
 
 ## Credits
@@ -34,3 +36,4 @@ Click on the models to interact with them and see additional information
 - [Three.js docs](https://threejs.org/docs/index.html#manual/en/introduction/Creating-a-scene)
 - [Vite docs](https://vitejs.dev/guide/)
 - [Tailwind CSS docs](https://tailwindcss.com/docs)
+- #### Other packages and libraries used can be viewed in dependencies in package.json file in root directory.
