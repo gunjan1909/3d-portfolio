@@ -7,8 +7,11 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
+//tech items
+
+import bootstrap from "./tech/bootstrap.png";
+import cpp from "./tech/cpp.png";
 import css from "./tech/css.png";
-import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
@@ -16,16 +19,16 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import sass from "./tech/sass.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+// company items
 
+import tech2edge from "./company/tech2edge.jpg";
+import datastack from "./company/datastack.jpg";
+
+//experiences items
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -37,10 +40,12 @@ export {
   mobile,
   web,
   github,
+  bootstrap,
+  cpp,
+  sass,
   menu,
   close,
   css,
-  docker,
   figma,
   git,
   html,
@@ -48,15 +53,8 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  tech2edge,
+  datastack,
 };
