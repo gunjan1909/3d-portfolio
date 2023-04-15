@@ -2,6 +2,7 @@
 // This file can be edited according to ur personal details to be reflected everywhere throughout the website, instead of updating it in every components, also Home.jsx in ./src/components
 
 import {
+  logo,
   mobile,
   backend,
   creator,
@@ -44,20 +45,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
     title: "Frontend Developer",
     icon: mobile,
   },
   {
-    title: "Fullstack Developer",
-    icon: backend,
+    title: "Web Developer",
+    icon: web,
   },
   {
     title: "C++ DSA",
     icon: creator,
+  },
+  {
+    title: "Web Designing and Debugging",
+    icon: backend,
   },
 ];
 
@@ -144,6 +145,19 @@ const experiences = [
       "Worked as a frontend web developer",
       "Completed few tasks and learned a lot about frontend web development libraries",
       "Worked in a good team and on various company websites.",
+    ],
+  },
+  {
+    title: "Web Developer",
+    company_name: "Lorem Ipsum",
+    icon: logo,
+    iconBg: "#383E56",
+    date: "June 2023-Present",
+    points: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
     ],
   },
 ];
