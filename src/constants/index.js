@@ -1,3 +1,6 @@
+//update the index.js and assets accordingly in ./src/assets to import here
+// This file can be edited according to ur personal details to be reflected everywhere throughout the website, instead of updating it in every components, also Home.jsx in ./src/components
+
 import {
   mobile,
   backend,

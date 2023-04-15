@@ -11,18 +11,20 @@ const CanvasLoader = () => {
         justifyContent: "center",
         alignItems: "center",
         flexDirection: "column",
+        width: "100%",
+        textAlign: "center",
       }}
     >
       <span className="canvas-loader"></span>
       <p
         style={{
-          fontSize: 14,
-          color: "#F1F1F1",
+          fontSize: 15,
+          color: "#63b8ff",
           fontWeight: 800,
           marginTop: 40,
         }}
       >
-        {progress.toFixed(2)}%
+        Loading: {progress.toFixed(2)}%
       </p>
     </Html>
   );
