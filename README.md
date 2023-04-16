@@ -46,7 +46,9 @@ Click on the models to interact with them and see additional information
 - Update the projects, and testimonials and other personal information
 - Add to linktree and update links for all socials(if any)
 - Add more styles/colours if required
+- Add a footer with socials and other stuff
+- Add a scroll to top button
 
 #### No resolve found for WebGL Canvas limit of 16 at once in browsers 😔
 
-#### FIX: Kept the technologies at max 13 so limit is not exceeded.
+#### FIX: Kept the technologies at max 12 so limit is not exceeded.

@@ -32,16 +32,27 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
           <div className="absolute inset-0 flex justify-end card-img_hover m-3">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            <motion.div
+              animate={{
+                y: [0, 8, 0],
+              }}
+              transition={{
+                duration: 1,
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
             >
-              <img
-                src={github}
-                alt="github"
-                className="w-2/3 h-2/3 object-contain"
-              />
-            </div>
+              <div
+                onClick={() => window.open(source_code_link, "_blank")}
+                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+              >
+                <img
+                  src={github}
+                  alt="github"
+                  className="w-2/3 h-2/3 object-contain"
+                />
+              </div>
+            </motion.div>
             {/* for deployed links */}
             {/* <div
               onClick={() => window.open(source_code_link, "_blank")}

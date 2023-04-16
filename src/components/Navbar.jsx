@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -33,19 +34,30 @@ const Navbar = () => {
       }`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
-          className="flex items-center gap-2"
-          onClick={() => {
-            setActive("");
-            window.scrollTo(0, 0);
+        <motion.div
+          animate={{
+            y: [0, 8, 0],
+          }}
+          transition={{
+            duration: 2,
+            repeat: Infinity,
+            repeatType: "loop",
           }}
         >
-          <img className="w-9 h-9 object-contain" src={logo} alt="logo" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Gunjan&nbsp;<span className="sm:block hidden">| BTech. CSE</span>
-          </p>
-        </Link>
+          <Link
+            to="/"
+            className="flex items-center gap-2"
+            onClick={() => {
+              setActive("");
+              window.scrollTo(0, 0);
+            }}
+          >
+            <img className="w-9 h-9 object-contain" src={logo} alt="logo" />
+            <p className="text-white text-[18px] font-bold cursor-pointer flex">
+              Gunjan&nbsp;<span className="sm:block hidden">| BTech. CSE</span>
+            </p>
+          </Link>
+        </motion.div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (
             <li

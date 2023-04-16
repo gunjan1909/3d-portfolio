@@ -6,7 +6,9 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-
+//template_e9nfwjm
+//service_g0bf61b
+//D2lXa0hIlYp_EYbht
 const Contact = () => {
   const formRef = useRef();
   const [form, setForm] = useState({
@@ -24,7 +26,42 @@ const Contact = () => {
       [name]: value,
     });
   };
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: "Gunjan Bhanarkar",
+          from_email: form.email,
+          to_email: import.meta.env.VITE_APP_TO_EMAIL,
+          message: form.message,
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Email Sent. You will be contacted soon.");
+
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+
+          alert("Something went wrong, email was not sent.");
+        }
+      );
+  };
   return (
     <div
       className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}

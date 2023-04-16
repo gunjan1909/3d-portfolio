@@ -83,10 +83,10 @@ const technologies = [
     name: "C++",
     icon: cpp,
   },
-  {
+  /*{
     name: "TypeScript",
     icon: typescript,
-  },
+  },*/
   {
     name: "React JS",
     icon: reactjs,

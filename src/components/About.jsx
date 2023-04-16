@@ -48,7 +48,7 @@ const About = () => {
         can collaborate with clients efficiently and work on developing
         scalable, user-friendly solutions. Please feel free to find out more.
       </motion.p>
-      <div className="mt-20 flex flex-wrap gap-10">
+      <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
