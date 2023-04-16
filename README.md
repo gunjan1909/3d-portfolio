@@ -39,3 +39,10 @@ Click on the models to interact with them and see additional information
 - #### Other packages and libraries used can be viewed in dependencies in package.json file in root directory.
 
 - ### [Click here for download assets](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
+
+#### To do (personal)
+
+- Work more on responsiveness of 3d models
+- Update the projects, and testimonials and other personal information
+- Add to linktree and update links for all socials(if any)
+- Add more styles/colours if required

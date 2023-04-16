@@ -182,7 +182,7 @@ const testimonials = [
   {
     testimonial:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    name: "Jane Doe",
+    name: "Jane John",
     designation: "CFO",
     company: "Lorem Ipsum",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
@@ -191,28 +191,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Stream Chat",
-    description:
-      "Chat applicatio built using react, typescript, fastify for backend, nodejs, vite and stream chat api, tailwindcss",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: streamchat,
-    source_code_link: "https://github.com/gunjan1909",
-  },
-  {
-    name: "Portfolio Template",
+    name: "Simple Portfolio Template",
     description:
       "Simple portfolio template built in html, css, javascript, with good ux ui and can be used by anyone to have a simple portfolio website.",
     tags: [
@@ -230,12 +209,38 @@ const projects = [
       },
     ],
     image: portfoliotemplate,
-    source_code_link: "https://github.com/gunjan1909",
+    source_code_link: "https://github.com/gunjan1909/portfolio-template",
   },
+  {
+    name: "Stream Chat",
+    description:
+      "Chat applicatio built using react, typescript, fastify for backend, nodejs, vite and stream chat api, tailwindcss",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "stream",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: streamchat,
+    source_code_link: "https://github.com/gunjan1909/react-stream-chatapp",
+  },
+
   {
     name: "Health Management",
     description:
-      "Health management and appointment web app with multiple features like appointment booking, diet/calories tracker etc, built using nodejs, expressjs, mongodb, google auth 2.0, ejs ",
+      "Health management and appointment web app with multiple features like appointment booking, diet/calories tracker etc.",
     tags: [
       {
         name: "nodejs",
@@ -246,12 +251,16 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "github",
+        name: "ejs",
         color: "pink-text-gradient",
+      },
+      {
+        name: "express",
+        color: "orange-text-gradient",
       },
     ],
     image: healthmanagement,
-    source_code_link: "https://github.com/gunjan1909",
+    source_code_link: "https://github.com/gunjan1909/Health-Management",
   },
 ];
 

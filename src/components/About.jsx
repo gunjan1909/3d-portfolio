@@ -33,13 +33,13 @@ const ServiceCard = ({ title, icon, index }) => {
 
 const About = () => {
   return (
-    <div className="px-2 sm:px-4">
+    <div className="px-2 sm:px-4 ">
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-secondary text-[18px] max-w-4xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
         I am pursuing BTech in CSE in IIIT Sonepat. I'm a frontend focussed full
