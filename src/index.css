@@ -20,7 +20,7 @@
   display: block;
 }
 
-/* gradients*/
+/* gradients */
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -116,7 +116,7 @@
   -webkit-text-fill-color: transparent;
 }
 
-/* canvas loader- styles */
+/* canvas- styles */
 .canvas-loader {
   font-size: 10px;
   width: 1em;

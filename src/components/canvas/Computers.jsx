@@ -10,15 +10,15 @@ const Computers = ({ isMobile }) => {
   return (
     <mesh>
       <hemisphereLight intensity={0.15} groundColor="black" />
-      <pointLight intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
         penumbra={1}
-        intensity={1}
+        intensity={isMobile ? 2 : 1}
         castShadow
         shadow-mapSize={1024}
       />
+      <pointLight intensity={2} />
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.4 : 0.6}
