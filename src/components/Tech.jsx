@@ -34,6 +34,7 @@ const Tech = () => {
                 alt={technology.name}
               />
             </div>
+            <p className="text-center">{technology.name}</p>
           </div>
         ))}
       </div>
