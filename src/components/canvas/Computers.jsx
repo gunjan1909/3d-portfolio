@@ -48,7 +48,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      style={{ cursor: "grab" }}
+      style={{ cursor: "grap", height: `${isMobile ? 80 : 100}%` }}
       frameloop="demand"
       shadows
       dpr={[1, 2]}

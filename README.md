@@ -51,11 +51,11 @@ Click on the models to interact with them and see additional information
 - Fix canvas for technologies section
 - Work more on responsiveness of 3d models
 - Update the projects, and testimonials and other personal information
-- Add to linktree and update links for all socials(if any)
 - Add more styles/colours if required
-- Add a footer with socials and other stuff
+- Add a footer with socials and other stuff if required
 - Add a scroll to top button
-- Fix touch scroll for mobiles
+- Fix touch scroll for mobiles due to canvas
+- Add to linktree and update/add links for all socials(if any)
 
 #### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices.
 
