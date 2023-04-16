@@ -34,11 +34,9 @@ const Tech = () => {
               repeat: Infinity,
               repeatType: "loop",
             }}
+            key={technology.name}
           >
-            <div
-              className="w-28 h-28 flex items-center justify-center rounded-full bg-tertiary shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex-col"
-              key={technology.name}
-            >
+            <div className="w-28 h-28 flex items-center justify-center rounded-full bg-tertiary shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300 flex-col">
               <div className="w-20 h-20 rounded-full bg-primary flex items-center justify-center transform hover:rotate-15 transition-all duration-300">
                 <img
                   className="w-16 h-16"

@@ -22,7 +22,7 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={isMobile ? 0.4 : 0.6}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        position={isMobile ? [0, -2, -1] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
     </mesh>
@@ -48,7 +48,7 @@ const ComputersCanvas = () => {
 
   return (
     <Canvas
-      style={{ cursor: "grap", height: `${isMobile ? 80 : 100}%` }}
+      style={{ cursor: "grab", height: `${isMobile ? 80 : 100}%` }}
       frameloop="demand"
       shadows
       dpr={[1, 2]}
@@ -60,6 +60,9 @@ const ComputersCanvas = () => {
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
+          enableDamping
+          dampingFactor={0.01}
+          autoRotate
         />
         <Computers isMobile={isMobile} />
       </Suspense>
