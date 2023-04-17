@@ -51,10 +51,9 @@ Click on the models to interact with them and see additional information
 - Work more on responsiveness of 3d models ---
 - Update the projects, and testimonials and other personal information -
 - Add more styles/colours if required -
-- Add a footer with socials and other stuff if required -
-- Add a scroll-to-top button ✅
-- Fix touch scroll for mobiles due to canvas
-- Add to linktree and update/add links for all socials(if any)
+- Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required -
+- Add a scroll-to-top button(optional) ✔️
+- Fix touch scroll for mobiles due to canvas ❌
 
 #### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices. - Added useEffect, u will see icosahedronGeometry sphere balls in devices width 768px and above, and normal circular divs in smaller devices
 
