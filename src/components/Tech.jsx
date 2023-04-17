@@ -15,15 +15,15 @@ const Tech = () => {
       </motion.div>
 
       {/* ORIGINAL DESIGN BUT NOT WORKING IN PHONE CAUSE TOO MANY WEBGL CANVAS */}
-      {/* <div className="mt-10 flex flex-row flex-wrap justify-center gap-10">
+      <div className="mt-10 flex flex-row flex-wrap justify-center gap-10">
         {technologies.map((technology) => (
           <div className="w-28 h-28" key={technology.name}>
             <BallCanvas icon={technology.icon} />
             <p className="text-center">{technology.name}</p>
           </div>
         ))}
-      </div> */}
-      <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
+      </div>
+      {/* <div className="flex flex-row flex-wrap justify-center gap-10 mt-10">
         {technologies.map((technology, index) => (
           <motion.div
             animate={{
@@ -48,7 +48,7 @@ const Tech = () => {
             </div>
           </motion.div>
         ))}
-      </div>
+      </div> */}
     </>
   );
 };
