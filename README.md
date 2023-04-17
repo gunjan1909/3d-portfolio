@@ -48,11 +48,11 @@ Click on the models to interact with them and see additional information
 
 #### To do (personal)
 
-- Work more on responsiveness of 3d models
-- Update the projects, and testimonials and other personal information
-- Add more styles/colours if required
-- Add a footer with socials and other stuff if required
-- Add a scroll to top button
+- Work more on responsiveness of 3d models ---
+- Update the projects, and testimonials and other personal information -
+- Add more styles/colours if required -
+- Add a footer with socials and other stuff if required -
+- Add a scroll-to-top button ✅
 - Fix touch scroll for mobiles due to canvas
 - Add to linktree and update/add links for all socials(if any)
 

@@ -1,4 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
+import { motion } from "framer-motion";
+import { arrow } from "./assets";
 
 import {
   About,
@@ -31,6 +33,28 @@ const App = () => {
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
+        </div>
+        {/* scroll to top button */}
+        <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
+          <div className="relative z-0">
+            <button
+              className="fixed bottom-4 right-4 bg-[#ff5454] text-white rounded-full p-2"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              {/* <motion.div
+                animate={{
+                  y: [0, 4, 0],
+                }}
+                transition={{
+                  duration: 2,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                }}
+              > */}
+              <img style={{ height: "25px" }} src={arrow} alt="UP" />
+              {/* </motion.div> */}
+            </button>
+          </div>
         </div>
       </div>
     </BrowserRouter>
