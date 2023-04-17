@@ -48,7 +48,6 @@ Click on the models to interact with them and see additional information
 
 #### To do (personal)
 
-- Fix canvas for technologies section
 - Work more on responsiveness of 3d models
 - Update the projects, and testimonials and other personal information
 - Add more styles/colours if required
@@ -57,7 +56,7 @@ Click on the models to interact with them and see additional information
 - Fix touch scroll for mobiles due to canvas
 - Add to linktree and update/add links for all socials(if any)
 
-#### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices.
+#### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices. - Added useEffect, u will see icosahedronGeometry sphere balls in devices width 768px and above, and normal circular divs in smaller devices
 
 #### No resolve found for WebGL Canvas limit of 16 at once in browsers 😔
 
