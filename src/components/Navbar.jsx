@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
+import { logo, menu, close, linktree } from "../assets";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
@@ -70,6 +70,36 @@ const Navbar = () => {
               <a href={`#${link.id}`}>{link.title}</a>
             </li>
           ))}
+          <div
+            style={{
+              height: "25px",
+              width: "2px",
+              background: "white",
+              padding: 0,
+              margin: "auto -12px",
+            }}
+          ></div>
+          <li
+            className={`hover:text-white text-[18px] font-medium cursor-pointer`}
+          >
+            <a
+              target="__blank"
+              href="https://linktr.ee/gunjanab"
+              className="flex gap-2 "
+            >
+              <img
+                src={linktree}
+                alt="Linktree"
+                style={{
+                  height: "20px",
+                  margin: "auto",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
+              />
+              Linktree
+            </a>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -99,9 +129,27 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a href={`#${link.id}`}>{link.title}</a>
+                  <a target="__blank" href={`#${link.id}`}>
+                    {link.title}
+                  </a>
                 </li>
               ))}
+              <li
+                className={`hover:text-white text-[18px] font-medium cursor-pointer`}
+              >
+                <a
+                  target="__blank"
+                  href="https://linktr.ee/gunjanab"
+                  className="flex gap-2"
+                >
+                  <img
+                    src={linktree}
+                    alt="Linktree"
+                    style={{ height: "20px" }}
+                  />
+                  Linktree
+                </a>
+              </li>
             </ul>
           </div>
         </div>

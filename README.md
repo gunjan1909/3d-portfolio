@@ -13,7 +13,8 @@ This is a portfolio website showcasing 3D models made using Three.js and React.
 VITE_APP_EMAILJS_TEMPLATE_ID=.......  
 VITE_APP_EMAILJS_PUBLIC_KEY=.......  
 VITE_APP_TO_EMAIL=your_email_id  `
-4. Start the development server: `npm run dev`
+4. To update your information, main data is in ./src/constants/index.js and other social links etc. in respective section files like footer, navbar etc.
+5. Start the development server: `npm run dev`
 
 ## Technologies Used
 
@@ -48,10 +49,9 @@ Click on the models to interact with them and see additional information
 
 #### To do (personal)
 
-- Work more on responsiveness of 3d models ---
-- Update the projects, and testimonials and other personal information -
-- Add more styles/colours if required -
-- Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required -
+- Update the projects, and testimonials and other personal information ⏳
+- Add more styles/colours if required ❓
+- Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required ✔️
 - Add a scroll-to-top button(optional) ✔️
 - Fix touch scroll for mobiles due to canvas ❌
 

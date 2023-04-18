@@ -7,6 +7,7 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import arrow from "./arrow.png";
+import linktree from "./linktree.png";
 
 //tech items
 
@@ -62,4 +63,5 @@ export {
   streamchat,
   portfoliotemplate,
   arrow,
+  linktree,
 };

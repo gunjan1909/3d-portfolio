@@ -1,6 +1,7 @@
 import { BrowserRouter } from "react-router-dom";
-import { motion } from "framer-motion";
-import { arrow } from "./assets";
+//import { arrow } from "./assets";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 import {
   About,
@@ -13,6 +14,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -41,21 +43,17 @@ const App = () => {
               className="fixed bottom-4 right-4 bg-[#ff5454] text-white rounded-full p-2"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
-              {/* <motion.div
-                animate={{
-                  y: [0, 4, 0],
-                }}
-                transition={{
-                  duration: 2,
-                  repeat: Infinity,
-                  repeatType: "loop",
-                }}
-              > */}
-              <img style={{ height: "25px" }} src={arrow} alt="UP" />
-              {/* </motion.div> */}
+              {/* <img style={{ height: "25px" }} src={arrow} alt="UP" /> */}
+              <FontAwesomeIcon
+                icon={faArrowUp}
+                beat
+                size="lg"
+                style={{ color: "black" }}
+              />
             </button>
           </div>
         </div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
