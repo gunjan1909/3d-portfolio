@@ -50,7 +50,7 @@ Click on the models to interact with them and see additional information
 #### To do (personal)
 
 - Update the projects, and testimonials and other personal information ⏳
-- Add more styles/colours if required ❓
+- Add more styles/colours if required ✔️
 - Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required ✔️
 - Add a scroll-to-top button(optional) ✔️
 - Fix touch scroll for mobiles due to canvas ❌

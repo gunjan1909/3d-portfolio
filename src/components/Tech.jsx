@@ -35,7 +35,7 @@ const Tech = () => {
           {technologies.map((technology) => (
             <div className="w-28 h-28" key={technology.name}>
               <BallCanvas icon={technology.icon} />
-              <p className="text-center">{technology.name}</p>
+              <p className="text-center select-none">{technology.name}</p>
             </div>
           ))}
         </div>
@@ -61,7 +61,7 @@ const Tech = () => {
                     alt={technology.name}
                   />
                 </div>
-                <p className="text-center">{technology.name}</p>
+                <p className="text-center select-none">{technology.name}</p>
               </div>
             </motion.div>
           ))}
