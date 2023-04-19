@@ -52,6 +52,7 @@
     id="_carbonads_js"></script> -->
   <script>
     if (window.matchMedia("(min-width: 768px)").matches) {
+
       let mousePosX = 0,
         mousePosY = 0,
         mouseCircle = document.getElementById("mouse-circle");
@@ -76,7 +77,9 @@
       }
       delayMouseFollow();
     } else {
+      alert("For best visual and best user experience, visit this site on desktop or pc or larger screen.")
       document.getElementById("mouse-circle").style.display = "none";
+
     }
 
   </script>
