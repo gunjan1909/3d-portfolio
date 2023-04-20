@@ -2,7 +2,7 @@
 
 This is a portfolio website showcasing 3D models made using Three.js and React.
 
-## [View Deployment](https://www.google.com)
+## [View Deployment](https://3d-portfolio-kappa-two.vercel.app/)
 
 ## Installation
 
@@ -22,6 +22,7 @@ VITE_APP_TO_EMAIL=your_email_id  `
 - Three.js: A 3D graphics library built on top of WebGL
 - Vite: A fast build tool for modern web applications
 - Tailwind CSS: A utility-first CSS framework for rapidly building custom designs
+- Framer: Framer Motion is a simple yet powerful motion library for React. It powers the amazing animations and interactions in Framer, the web builder for creative pros. Zero code, maximum speed.
 
 ## Features
 
@@ -34,6 +35,7 @@ Smooth animations and transitions for a seamless user experience
 Navigate to the deployed website <br>
 Use your mouse to drag and rotate the 3D models<br>
 Click on the models to interact with them and see additional information
+NOTE: The effects and most 3js canvas and webgl models will be best visible on pc/laptop/desktop, due to memory and canvas limits, they have been reduced in phone browser for optimisation.
 
 ## Credits
 
@@ -53,7 +55,7 @@ Click on the models to interact with them and see additional information
 - Add more styles/colours if required ✔️
 - Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required ✔️
 - Add a scroll-to-top button(optional) ✔️
-- Fix touch scroll for mobiles due to canvas ❌
+- Fix touch scroll for mobiles due to canvas size ❌
 
 #### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices. - Added useEffect, u will see icosahedronGeometry sphere balls in devices width 768px and above, and normal circular divs in smaller devices
 
