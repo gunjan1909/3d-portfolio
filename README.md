@@ -15,6 +15,7 @@ VITE_APP_EMAILJS_PUBLIC_KEY=.......
 VITE_APP_TO_EMAIL=your_email_id  `
 4. To update your information, main data is in ./src/constants/index.js and other social links etc. in respective section files like footer, navbar etc.
 5. Start the development server: `npm run dev`
+6. NOTE: Needs hardware acceleration on in browsers to work smoothly(eg: brave browser etc.).
 
 ## Technologies Used
 
