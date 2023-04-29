@@ -131,7 +131,7 @@ const experiences = [
     points: [
       "Worked on multiple projects",
       "Built a javascript quiz app with a team of 3",
-      " Worked on businessinternet.us website: https://businessinternet-vcomy.ondigitalocean.app/",
+      "Worked on businessinternet.us website",
       "Worked as frontend developer and backend debugging in django, flask,sql, nodejs",
     ],
   },
