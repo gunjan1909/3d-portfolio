@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
       <p
         onClick={() => window.open("https://linktr.ee/gunjanab", "_blank")}
-        className="m-auto text-center text-sm blue-text-gradient"
+        className="m-auto text-center text-sm  blue-text-gradient cursor-pointer"
       >
         Made by Gunjan@2023
       </p>

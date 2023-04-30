@@ -47,9 +47,6 @@
 <body>
   <div id="root"></div>
   <div id="mouse-circle"></div>
-
-  <!-- <script async type="text/javascript" src="//cdn.carbonads.com/carbon.js?serve=CESDK2J7&placement=getbutterflycom"
-    id="_carbonads_js"></script> -->
   <script>
     if (window.matchMedia("(min-width: 768px)").matches) {
 
@@ -62,7 +59,7 @@
         mousePosY = e.pageY;
       };
 
-      let delay = 7,
+      let delay = 3,
         revisedMousePosX = 0,
         revisedMousePosY = 0;
 
@@ -77,7 +74,7 @@
       }
       delayMouseFollow();
     } else {
-      alert("For best visual and best user experience, visit this site on desktop or pc or larger screen.")
+      alert("For best visual and best user experience, visit this site on desktop or pc or larger screen.");
       document.getElementById("mouse-circle").style.display = "none";
 
     }

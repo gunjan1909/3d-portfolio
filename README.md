@@ -8,7 +8,7 @@ This is a portfolio website showcasing 3D models made using Three.js and React.
 
 1. Clone the repository: `git clone https://github.com/gunjan1909/3d-portfolio.git`
 2. Install dependencies: `npm install`
-3. Make a .env file in root directory and add your email.js credentials <br/>
+3. Make a .env file in root directory and add your email.js credentials(for contact form to work and send you email) <br/>
    `VITE_APP_EMAILJS_SERVICE_ID=...... 
 VITE_APP_EMAILJS_TEMPLATE_ID=.......  
 VITE_APP_EMAILJS_PUBLIC_KEY=.......  
@@ -28,7 +28,7 @@ VITE_APP_TO_EMAIL=your_email_id  `
 ## Features
 
 Showcases 3D models in an interactive and visually appealing manner <br>
-Responsive design for optimal viewing on different devices<br>
+Responsive design for optimal viewing on different devices<br> PS: Due to canvas and memory limits in phone devices, 3js webgl canvas models are reduced to normal animated components.<br>
 Smooth animations and transitions for a seamless user experience
 
 ## Usage
