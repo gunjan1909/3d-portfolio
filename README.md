@@ -7,7 +7,7 @@ This is a portfolio website showcasing 3D models made using Three.js and React.
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/gunjan1909/3d-portfolio.git`
-2. Install dependencies: `npm install`
+2. Install dependencies: `npm install --legacy-peer-deps`
 3. Make a .env file in root directory and add your email.js credentials(for contact form to work and send you email) <br/>
    `VITE_APP_EMAILJS_SERVICE_ID=...... 
 VITE_APP_EMAILJS_TEMPLATE_ID=.......  
