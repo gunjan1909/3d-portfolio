@@ -57,6 +57,7 @@ NOTE: The effects and most 3js canvas and webgl models will be best visible on p
 - Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required ✔️
 - Add a scroll-to-top button(optional) ✔️
 - Fix touch scroll for mobiles due to canvas size ❌
+- Media Queries needed for smaller desktop sizes ❌
 
 #### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices. - Added useEffect, u will see icosahedronGeometry sphere balls in devices width 768px and above, and normal circular divs in smaller devices
 
