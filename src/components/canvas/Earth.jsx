@@ -25,6 +25,9 @@ const EarthCanvas = () => {
         far: 200,
         position: [-4, 3, 6],
       }}
+      style={{
+        cursor: "grab",
+      }}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls

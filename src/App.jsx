@@ -40,7 +40,7 @@ const App = () => {
         <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
           <div className="relative z-0">
             <button
-              className="fixed bottom-4 right-4 bg-[#ff5454] text-white rounded-full p-2"
+              className="fixed bottom-4 right-4 bg-[#ff5454] text-white rounded-full p-2 shakeit"
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               {/* <img style={{ height: "25px" }} src={arrow} alt="UP" /> */}

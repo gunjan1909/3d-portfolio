@@ -46,7 +46,7 @@ const Navbar = () => {
         >
           <Link
             to="/"
-            className="flex items-center gap-2"
+            className="flex items-center gap-2 shakeit"
             onClick={() => {
               setActive("");
               window.scrollTo(0, 0);
@@ -85,7 +85,7 @@ const Navbar = () => {
             <a
               target="__blank"
               href="https://linktr.ee/gunjanab"
-              className="flex gap-2 "
+              className="flex gap-2 shakeit"
             >
               <img
                 src={linktree}
@@ -140,7 +140,7 @@ const Navbar = () => {
                 <a
                   target="__blank"
                   href="https://linktr.ee/gunjanab"
-                  className="flex gap-2"
+                  className="flex gap-2 shakeit"
                 >
                   <img
                     src={linktree}

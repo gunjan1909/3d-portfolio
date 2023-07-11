@@ -22,6 +22,7 @@ const Footer = () => {
               "_blank"
             )
           }
+          className="shakeit"
         />
 
         <FontAwesomeIcon
@@ -30,6 +31,7 @@ const Footer = () => {
           size="2xl"
           style={{ cursor: "pointer" }}
           onClick={() => window.open("https://github.com/gunjan1909", "_blank")}
+          className="shakeit"
         />
 
         <FontAwesomeIcon
@@ -40,6 +42,7 @@ const Footer = () => {
           onClick={() =>
             window.open("https://www.instagram.com/gunjan.ab/", "_blank")
           }
+          className="shakeit"
         />
       </div>
       <p

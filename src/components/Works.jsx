@@ -24,7 +24,7 @@ const ProjectCard = ({
           speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-        style={{ boxShadow: "0px 0px 10px 5px #08174f" }}
+        style={{ boxShadow: "0px 0px 10px 5px #08174f", cursor: "move" }}
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -68,7 +68,7 @@ const ProjectCard = ({
           </div>
         </div>
         <div className="mt-5 ">
-          <h3 className="text-white font-bold text-[24px]">{name}</h3>
+          <h3 className="text-white font-bold text-[24px] shakeit">{name}</h3>
           <p className="mt-2 text-secondary text-[16px] select-none">
             {" "}
             {description}
