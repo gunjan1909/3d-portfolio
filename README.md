@@ -52,6 +52,8 @@ NOTE: The effects and most 3js canvas and webgl models will be best visible on p
 
 #### To do (personal)
 
+- Add a [resume](https://drive.google.com/file/d/1zqEKh0PRyTgPthRaSlKu6cuYFUvVEpEz/view?usp=sharing) button 🔜
+- Update work experience (purplle) 🔜
 - Update the projects, and testimonials and other personal information ⏳
 - Add more styles/colours if required ✔️
 - Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required ✔️
