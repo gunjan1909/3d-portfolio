@@ -53,7 +53,7 @@ NOTE: The effects and most 3js canvas and webgl models will be best visible on p
 #### To do (personal)
 
 - Update the projects, and testimonials and other personal information ⏳
-- Add a resume button ✔️
+- Add a resume button(update the resume link) ✔️
 - Update work experience (purplle) ✔️
 - Add more styles/colours if required ✔️
 - Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required ✔️
