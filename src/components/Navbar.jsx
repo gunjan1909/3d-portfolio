@@ -100,6 +100,17 @@ const Navbar = () => {
               Linktree
             </a>
           </li>
+          <li
+            className={`hover:text-white text-[18px] font-medium cursor-pointer p-2`}
+          >
+            <a
+              target="__blank"
+              href="https://tr.ee/xdY0InVbUC"
+              className="flex gap-2 shakeit"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -129,11 +140,20 @@ const Navbar = () => {
                     setActive(link.title);
                   }}
                 >
-                  <a target="__blank" href={`#${link.id}`}>
-                    {link.title}
-                  </a>
+                  <a href={`#${link.id}`}>{link.title}</a>
                 </li>
               ))}
+              <li
+                className={`hover:text-white text-[18px] font-medium cursor-pointer`}
+              >
+                <a
+                  target="__blank"
+                  href="https://tr.ee/xdY0InVbUC"
+                  className="flex gap-2 shakeit"
+                >
+                  Resume
+                </a>
+              </li>
               <li
                 className={`hover:text-white text-[18px] font-medium cursor-pointer`}
               >

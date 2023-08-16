@@ -29,6 +29,7 @@ import typescript from "./tech/typescript.png";
 
 import tech2edge from "./company/tech2edge.jpg";
 import datastack from "./company/datastack.jpg";
+import purplle from "./purplle.png";
 
 //experiences items
 import healthmanagement from "./healthmanagement.png";
@@ -59,6 +60,7 @@ export {
   typescript,
   tech2edge,
   datastack,
+  purplle,
   healthmanagement,
   streamchat,
   portfoliotemplate,

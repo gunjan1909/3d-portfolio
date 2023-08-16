@@ -26,6 +26,7 @@ import {
   healthmanagement,
   streamchat,
   portfoliotemplate,
+  purplle,
 } from "../assets";
 
 export const navLinks = [
@@ -148,16 +149,14 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Lorem Ipsum",
-    icon: logo,
-    iconBg: "#383E56",
-    date: "June 2023-Present",
+    title: "Frontend Engineering Intern-Web",
+    company_name: "Purplle.com",
+    icon: purplle,
+    iconBg: "#f9d3e8",
+    date: "July 2023-Present",
     points: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "Working as a Frontend Web Developer Intern at Purplle.com",
+      "Learning AngularJs as new tech stack",
     ],
   },
 ];
