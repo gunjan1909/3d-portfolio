@@ -24,6 +24,7 @@ import reactjs from "./tech/reactjs.png";
 import sass from "./tech/sass.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import angular from "./tech/angular.png";
 
 // company items
 
@@ -66,4 +67,5 @@ export {
   portfoliotemplate,
   arrow,
   linktree,
+  angular,
 };

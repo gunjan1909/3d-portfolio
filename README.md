@@ -1,10 +1,10 @@
-# 3D Portfolio Project
+# 3D Portfolio Project:
 
 This is a portfolio website showcasing 3D models made using Three.js and React.
 
 ## [View Deployment](https://3d-portfolio-kappa-two.vercel.app/)
 
-## Installation
+## Installation Guide:
 
 1. Clone the repository: `git clone https://github.com/gunjan1909/3d-portfolio.git`
 2. Install dependencies: `npm install --legacy-peer-deps`
@@ -17,7 +17,7 @@ VITE_APP_TO_EMAIL=your_email_id  `
 5. Start the development server: `npm run dev`
 6. NOTE: Needs hardware acceleration turned on in some browsers to work smoothly(eg: brave browser etc.).
 
-## Technologies Used
+## Technologies Used:
 
 - React: A JavaScript library for building user interfaces
 - Three.js: A 3D graphics library built on top of WebGL
@@ -25,20 +25,21 @@ VITE_APP_TO_EMAIL=your_email_id  `
 - Tailwind CSS: A utility-first CSS framework for rapidly building custom designs
 - Framer: Framer Motion is a simple yet powerful motion library for React. It powers the amazing animations and interactions in Framer, the web builder for creative pros. Zero code, maximum speed.
 
-## Features
+## Features:
 
-Showcases 3D models in an interactive and visually appealing manner <br>
-Responsive design for optimal viewing on different devices<br> PS: Due to canvas and memory limits in phone devices, 3js webgl canvas models are reduced to normal animated components.<br>
-Smooth animations and transitions for a seamless user experience
+- Showcases 3D models in an interactive and visually appealing manner.
+- Responsive design for optimal viewing on different devices
+- Smooth animations and transitions for a seamless user experience
+  <br/> PS: Due to canvas and memory limits in phone devices, 3js webgl canvas models are reduced to normal animated components.
 
-## Usage
+## Usage:
 
-Navigate to the deployed website <br>
-Use your mouse to drag and rotate the 3D models<br>
-Click on the models to interact with them and see additional information
-NOTE: The effects and most 3js canvas and webgl models will be best visible on pc/laptop/desktop, due to memory and canvas limits, they have been reduced in phone browser for optimisation.
+- Navigate to the deployed website
+- Use your mouse to drag and rotate the 3D models<br>
+- Click on the models to interact with them and see additional information <br/>
+  NOTE: The effects and most 3js canvas and webgl models will be best visible on pc/laptop/desktop, due to memory and canvas limits, they have been reduced in phone browser for optimisation.
 
-## Credits
+## Credits/Resources followed:
 
 - [Tutorial video followed](https://youtu.be/0fYi8SGA20k)
 - [React docs](https://react.dev/learn)
@@ -47,10 +48,10 @@ NOTE: The effects and most 3js canvas and webgl models will be best visible on p
 - [Tailwind CSS docs](https://tailwindcss.com/docs)
 - #### Other packages and libraries used can be viewed in dependencies in package.json file in root directory.
 
-- ### [Click here for download assets](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
+- ### [Click here to download the assets](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
 <br/>
 
-#### To do (personal)
+#### TODos: (for personal use)
 
 - Update the projects, and testimonials and other personal information ⏳
 - Add a resume button(update the resume link) ✔️

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { textVariant } from "../utils/motion";
+import { textVariant, fadeIn } from "../utils/motion";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
@@ -27,7 +27,20 @@ const Tech = () => {
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What i generally work on.</p>
         <h2 className={styles.sectionHeadText}>Technologies</h2>
+        <p className=" text-secondary text-[18px] max-w-4xl leading-[30px]">
+          Here are some of the technologies, tech stack and programming
+          languages I use, there are many more which can be found in my Resume
+          linked above. Please feel free to take a look
+        </p>
       </motion.div>
+      {/* <motion.p
+        className="mt-4 text-secondary text-[18px] max-w-4xl leading-[30px]"
+        variants={fadeIn("", "", 0.1, 1)}
+      >
+        Here are some of the technologies, tech stack and programming languages
+        I use, there are many more which can be found in my Resume linked above.
+        Please feel free to take a look
+      </motion.p> */}
 
       {/* ORIGINAL DESIGN BUT NOT WORKING IN PHONE CAUSE TOO MANY WEBGL CANVAS */}
       {!isMobile ? (

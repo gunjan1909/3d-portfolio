@@ -20,6 +20,7 @@ import {
   mongodb,
   git,
   figma,
+  angular,
   sass,
   tech2edge,
   datastack,
@@ -29,6 +30,7 @@ import {
   purplle,
 } from "../assets";
 
+//array of links for navbar
 export const navLinks = [
   {
     id: "about",
@@ -44,6 +46,7 @@ export const navLinks = [
   },
 ];
 
+// services object array(used in overview)
 const services = [
   {
     title: "Frontend Developer",
@@ -63,6 +66,7 @@ const services = [
   },
 ];
 
+// technologies I know, there are many more
 const technologies = [
   {
     name: "HTML 5",
@@ -84,7 +88,7 @@ const technologies = [
     name: "C++",
     icon: cpp,
   },
-  /* {
+  /*{
     name: "TypeScript",
     icon: typescript,
   },*/
@@ -93,7 +97,11 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Github",
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Git/Github",
     icon: github,
   },
   {
@@ -112,17 +120,29 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "git",
+  /*{
+    name: "Git/Github",
     icon: git,
   },
-  /*  {
+    {
     name: "figma",
     icon: figma,
   },*/
 ];
 
+// experiences object array(used in experience)
 const experiences = [
+  {
+    title: "Frontend Engineering Intern-Web",
+    company_name: "Purplle.com",
+    icon: purplle,
+    iconBg: "#f9d3e8",
+    date: "July 2023-Present",
+    points: [
+      "Working as a Frontend Web Developer Intern at Purplle.com",
+      "Learning AngularJs as new tech stack",
+    ],
+  },
   {
     title: "Web Developer",
     company_name: "Datastack Technologies",
@@ -148,19 +168,9 @@ const experiences = [
       "Worked in a good team and on various company websites.",
     ],
   },
-  {
-    title: "Frontend Engineering Intern-Web",
-    company_name: "Purplle.com",
-    icon: purplle,
-    iconBg: "#f9d3e8",
-    date: "July 2023-Present",
-    points: [
-      "Working as a Frontend Web Developer Intern at Purplle.com",
-      "Learning AngularJs as new tech stack",
-    ],
-  },
 ];
 
+// Testimonials if any
 const testimonials = [
   {
     testimonial:
@@ -188,6 +198,7 @@ const testimonials = [
   },
 ];
 
+// My projects, need to update
 const projects = [
   {
     name: "Simple Portfolio Template",

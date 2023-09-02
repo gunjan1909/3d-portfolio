@@ -6,17 +6,18 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-//template_e9nfwjm
-//service_g0bf61b
-//D2lXa0hIlYp_EYbht
+
 const Contact = () => {
   const formRef = useRef();
+
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: "",
   });
+
   const [loading, setLoading] = useState();
+
   const handleChange = (e) => {
     const { target } = e;
     const { name, value } = target;
@@ -26,10 +27,10 @@ const Contact = () => {
       [name]: value,
     });
   };
+
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,

@@ -1,3 +1,5 @@
+// ABOUT ME COMPONENT
+
 import React from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
@@ -53,11 +55,13 @@ const About = () => {
         className="mt-4 text-secondary text-[18px] max-w-4xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        I am pursuing BTech in CSE in IIIT Sonepat. I'm a frontend focussed full
-        stack developers with experience in front end web development, backend
-        debugging and UI UX designing. I'm a quick learner and good team player,
-        can collaborate with clients efficiently and work on developing
-        scalable, user-friendly solutions. Please feel free to find out more.
+        I'm a frontend web developer pursuing a B.Tech in Computer Science and
+        Engineering at IIIT Sonepat. Passionate about learning and enjoy
+        collaborating in teams with strong communication skills. Currently
+        exploring the latest technologies. My skills include HTML, CSS,
+        JavaScript, Bootstrap, ReactJS, Next.js, Node.js, Express.js, MongoDB,
+        TypeScript, AngularJS, TailwindCSS, Firebase, Git/Github, Docker, SQL,
+        C/C++, and more.
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

@@ -19,7 +19,7 @@ const FeedbackCard = ({
     className="bg-black-200 p-10 rounded-3xl xs:w-[320px] w-full"
     style={{ boxShadow: "0px 0px 10px 5px #08174f" }}
   >
-    <p className="text-white font-black text-[48px]">"</p>
+    <p className="text-white font-black text-[40px]">"</p>
 
     <div className="mt-1">
       <p className="text-white tracking-wider text-[18px]">{testimonial}</p>
@@ -51,7 +51,9 @@ const Feedbacks = () => {
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
         <motion.div variants={textVariant()}>
-          <p className={styles.sectionSubText}>What others say.</p>
+          <p className={styles.sectionSubText}>
+            What others say(have not said yet 🙃).
+          </p>
           <h2 className={styles.sectionHeadText}>Testimonials</h2>
         </motion.div>
       </div>
