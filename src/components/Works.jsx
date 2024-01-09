@@ -16,7 +16,7 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div style={{}} variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{
           max: 45,
@@ -24,7 +24,10 @@ const ProjectCard = ({
           speed: 450,
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
-        style={{ boxShadow: "0px 0px 10px 5px #08174f", cursor: "move" }}
+        style={{
+          boxShadow: "0px 0px 10px 5px #08174f",
+          cursor: "move",
+        }}
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -69,7 +72,7 @@ const ProjectCard = ({
         </div>
         <div className="mt-5 ">
           <h3 className="text-white font-bold text-[24px] shakeit">{name}</h3>
-          <p className="mt-2 text-secondary text-[16px] select-none">
+          <p className="mt-2 text-secondary text-[16px] select-none min-h-[97px]">
             {" "}
             {description}
           </p>

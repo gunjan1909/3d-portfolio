@@ -135,17 +135,22 @@ const experiences = [
   {
     title: "Frontend Engineering Intern-Web",
     company_name: "Purplle.com",
+    company_url: "https://www.purplle.com/",
     icon: purplle,
     iconBg: "#f9d3e8",
     date: "July 2023-Present",
     points: [
-      "Working as a Frontend Web Developer Intern at Purplle.com",
-      "Learning AngularJs as new tech stack",
+      "Working as a Frontend Engineering Intern at Purplle.com",
+      "Learned AngularJs as new tech stack",
+      "Optimsed, cleaned and removed 2500+ lines of unused code",
+      "Learned about BEM methodology, modern UI practicess understanding web vitals and lighthouse performance reports",
+      "Have performed sanity tests and optimisied listing and product pages for the website",
     ],
   },
   {
     title: "Web Developer",
     company_name: "Datastack Technologies",
+    company_url: "https://www.datastack.tech/",
     icon: datastack,
     iconBg: "#383E56",
     date: "Nov 2021 - Mar 2022",
@@ -159,6 +164,7 @@ const experiences = [
   {
     title: "FrontEnd Developer",
     company_name: "Tech 2 Edge",
+    company_url: "https://tech2edge.co/home",
     icon: tech2edge,
     iconBg: "#E6DEDD",
     date: "Oct 2021 - Dec 2021",
@@ -224,7 +230,7 @@ const projects = [
   {
     name: "Stream Chat",
     description:
-      "Chat applicatio built using react, typescript, fastify for backend, nodejs, vite and stream chat api, tailwindcss",
+      "Chat applicatio built using react, typescript, fastify for backend, nodejs, vite and stream chat api, tailwindcss.",
     tags: [
       {
         name: "react",
