@@ -18,7 +18,7 @@ const Footer = () => {
           style={{ cursor: "pointer" }}
           onClick={() =>
             window.open(
-              "https://www.linkedin.com/in/gunjan-bhanarkar-313b16201/",
+              "https://www.linkedin.com/in/gunjan-bhanarkar/",
               "_blank"
             )
           }
