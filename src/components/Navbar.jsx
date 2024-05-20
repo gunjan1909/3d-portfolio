@@ -64,10 +64,12 @@ const Navbar = () => {
               key={link.id}
               className={`${
                 active === link.title ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] hover:bg-circle-red p-2 hover:rounded-lg font-medium cursor-pointer`}
+              } hover:text-white text-[18px] hover:bg-circle-red hover:rounded-lg font-medium cursor-pointer content-center`}
               onClick={() => setActive(link.title)}
             >
-              <a href={`#${link.id}`}>{link.title}</a>
+              <a className="p-2" href={`#${link.id}`}>
+                {link.title}
+              </a>
             </li>
           ))}
           <div
@@ -80,12 +82,12 @@ const Navbar = () => {
             }}
           ></div>
           <li
-            className={`hover:text-white text-[18px] font-medium cursor-pointer p-2`}
+            className={`hover:text-white text-[18px] font-medium cursor-pointer content-center`}
           >
             <a
               target="__blank"
               href="https://linktr.ee/gunjanab"
-              className="flex gap-2 shakeit"
+              className="flex p-2 gap-2 shakeit"
             >
               <img
                 src={linktree}
@@ -101,12 +103,12 @@ const Navbar = () => {
             </a>
           </li>
           <li
-            className={`hover:text-white text-[18px] font-medium cursor-pointer p-2`}
+            className={`hover:text-white text-[18px] font-medium cursor-pointer content-center`}
           >
             <a
               target="__blank"
               href="https://tr.ee/xdY0InVbUC"
-              className="flex gap-2 shakeit"
+              className="flex p-2 gap-2 shakeit"
             >
               Resume
             </a>
