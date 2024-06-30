@@ -28,6 +28,7 @@ import {
   streamchat,
   portfoliotemplate,
   purplle,
+  nextjs,
 } from "../assets";
 
 //array of links for navbar
@@ -49,19 +50,19 @@ export const navLinks = [
 // services object array(used in overview)
 const services = [
   {
-    title: "Frontend Developer",
+    title: "Frontend Engineer, UI/UX Development",
     icon: backend,
   },
   {
-    title: "Web Developer",
+    title: "Web Developer (MERN & MEAN Stack)",
     icon: web,
   },
   {
-    title: "C++ DSA",
+    title: "C++ DSA, OOPS, Problem Solving",
     icon: creator,
   },
   {
-    title: "Web Designing and Debugging",
+    title: "Debugging, Testing, Deployment",
     icon: mobile,
   },
 ];
@@ -73,7 +74,7 @@ const technologies = [
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS 3, SASS",
     icon: css,
   },
   {
@@ -88,10 +89,10 @@ const technologies = [
     name: "C++",
     icon: cpp,
   },
-  /*{
+  {
     name: "TypeScript",
     icon: typescript,
-  },*/
+  },
   {
     name: "React JS",
     icon: reactjs,
@@ -109,42 +110,34 @@ const technologies = [
     icon: tailwind,
   },
   {
-    name: "Sass",
-    icon: sass,
-  },
-  {
     name: "Node JS",
     icon: nodejs,
   },
+  // {
+  //   name: "MongoDB",
+  //   icon: mongodb,
+  // },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "NextJS",
+    icon: nextjs,
   },
-  /*{
-    name: "Git/Github",
-    icon: git,
-  },
-    {
-    name: "figma",
-    icon: figma,
-  },*/
 ];
 
 // experiences object array(used in experience)
 const experiences = [
   {
-    title: "Frontend Engineering Intern-Web",
+    title: "Frontend Engineering Intern",
     company_name: "Purplle.com",
     company_url: "https://www.purplle.com/",
     icon: purplle,
     iconBg: "#f9d3e8",
     date: "July 2023-Present",
     points: [
-      "Working as a Frontend Engineering Intern at Purplle.com",
-      "Learned AngularJs as new tech stack",
-      "Optimsed, cleaned and removed 2500+ lines of unused code",
-      "Learned about BEM methodology, modern UI practicess understanding web vitals and lighthouse performance reports",
-      "Have performed sanity tests and optimisied listing and product pages for the website",
+      "Optimized and minified 20k+ lines of code, enhancing system efficiency, and conducted UI sanity checks and testing to ensure optimal user experience.",
+      "Successfully resolved 8-9 production bugs, implemented 4-5 new features, and addressed 30+ JIRA tickets in collaboration with QA and UI/UX teams.",
+      "Proficiency in BEM methodology, modern UI/UX practices, web vitals, GitLab, and Git branching, JIRA and Agile methodology concepts.",
+      "Solved tasks outside my usual domain, demonstrating flexibility, adaptability, solving skills.",
+      "Developed an automation tool which was used by the catalog team of 5+ members to generate product content.",
     ],
   },
   {
@@ -152,13 +145,12 @@ const experiences = [
     company_name: "Datastack Technologies",
     company_url: "https://www.datastack.tech/",
     icon: datastack,
-    iconBg: "#383E56",
+    iconBg: "#fff",
     date: "Nov 2021 - Mar 2022",
     points: [
-      "Worked on multiple projects",
-      "Built a javascript quiz app with a team of 3",
-      "Worked on businessinternet.us website",
-      "Worked as frontend developer and backend debugging in django, flask,sql, nodejs",
+      "Worked as Web developer for 5 months.",
+      "Revamped production ready website for a US based company in 4 months with 1000+ users and performed debugging.",
+      "Co-created a JavaScript grit assessment app with a team of 3.",
     ],
   },
   {
@@ -166,12 +158,12 @@ const experiences = [
     company_name: "Tech 2 Edge",
     company_url: "https://tech2edge.co/home",
     icon: tech2edge,
-    iconBg: "#E6DEDD",
+    iconBg: "#000",
     date: "Oct 2021 - Dec 2021",
     points: [
-      "Worked as a frontend web developer",
-      "Completed few tasks and learned a lot about frontend web development libraries",
-      "Worked in a good team and on various company websites.",
+      "Contributed as an assistant frontend developer for 2 months.",
+      "Developed the UI for Fashion Panda website with 1500+ users.",
+      "Learned about new 2-3 frontend libraries and frameworks.",
     ],
   },
 ];

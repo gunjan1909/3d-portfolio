@@ -1,3 +1,5 @@
+// framer motion variants and animations
+
 export const textVariant = (delay) => {
   return {
     hidden: {

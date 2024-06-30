@@ -25,12 +25,14 @@ import sass from "./tech/sass.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import angular from "./tech/angular.png";
+import nextjs from "./tech/nextjs.png";
 
 // company items
 
-import tech2edge from "./company/tech2edge.jpg";
+import tech2edge from "./company/tech2edge.png";
+// import tech2edge2 from "./company/tech2edge2.png";
 import datastack from "./company/datastack.jpg";
-import purplle from "./purplle.png";
+import purplle from "./company/purplle.png";
 
 //experiences items
 import healthmanagement from "./healthmanagement.png";
@@ -68,4 +70,5 @@ export {
   arrow,
   linktree,
   angular,
+  nextjs,
 };

@@ -110,7 +110,7 @@ const Navbar = () => {
               href="https://tr.ee/xdY0InVbUC"
               className="flex p-2 gap-2 shakeit"
             >
-              Resume
+              &lt;&gt; Resume&lt;/&gt;
             </a>
           </li>
         </ul>

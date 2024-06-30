@@ -48,20 +48,26 @@ const About = () => {
   return (
     <div className="px-2 sm:px-4 ">
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction.</p>
+        <p className={styles.sectionSubText}>
+          <span className="lowercase">console.log</span>(<b>Introduction.</b>)
+        </p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
         className="mt-4 text-secondary text-[18px] max-w-4xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
-        I'm a frontend web developer pursuing a B.Tech in Computer Science and
-        Engineering at IIIT Sonepat. Passionate about learning and enjoy
-        collaborating in teams with strong communication skills. Currently
-        exploring the latest technologies. My skills include HTML, CSS,
-        JavaScript, Bootstrap, ReactJS, Next.js, Node.js, Express.js, MongoDB,
-        TypeScript, AngularJS, TailwindCSS, Firebase, Git/Github, Docker, SQL,
-        C/C++, and more.
+        <h1 className="text-3xl">&lt;&gt;</h1>
+        An experienced Frontend Engineer with a B.Tech in Computer Science from
+        IIIT Sonepat. Skilled in JavaScript, TypeScript, React, Angular, and
+        modern UI/UX practices. Proven track record in optimizing code,enhancing
+        user experience, and resolving production issues. Proficient in Agile
+        methodologies and tools like GitLab, JIRA, and Google Cloud Console.
+        Developed impactful web applications used by thousands as\ well as
+        automation tools used by many non-technical support teams in the
+        industry. Also have knowledge of programming, C++, OOPS, problem
+        solving, DSA.
+        <h1 className="text-3xl">&lt;/&gt;</h1>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
         {services.map((service, index) => (

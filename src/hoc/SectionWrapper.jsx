@@ -1,9 +1,8 @@
+//higher order wrapping component
 import { motion } from "framer-motion";
-
 import { styles } from "../styles";
 import { staggerContainer } from "../utils/motion";
 
-//higher order component(hoc)
 const StarWrapper = (Component, idName) =>
   function HOC() {
     return (
@@ -21,7 +20,6 @@ const StarWrapper = (Component, idName) =>
         >
           &nbsp;
         </span>
-
         <Component />
       </motion.section>
     );

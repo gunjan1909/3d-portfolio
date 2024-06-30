@@ -72,7 +72,9 @@ const Contact = () => {
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         {/* <div className="flex-[0.75] bg-black-100 p-8 rounded-2xl"> */}
-        <p className={styles.sectionSubText}>Hire me..</p>
+        <p className={styles.sectionSubText}>
+          <span className="lowercase">console.log</span>(<b>Hire me...</b>)
+        </p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
         <form
           ref={formRef}

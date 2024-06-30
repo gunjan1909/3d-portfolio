@@ -51,13 +51,10 @@ VITE_APP_TO_EMAIL=your_email_id  `
 - ### [Click here to download the assets](https://drive.google.com/drive/folders/1KVU8iaH0E_JFtShNiR3BgCSA3pawXY4Z)
 <br/>
 
-#### TODos: (for personal use)
+#### TODOs: (for personal use)
 
 - Update the projects, and testimonials and other personal information ⏳
-- Add a resume button(update the resume link) ✔️
 - Update work experience (purplle) ✔️
-- Add more styles/colours if required ✔️
-- Add a footer/to navbar,socials(linktree,linkedin,github) and other stuff if required ✔️
 - Add a scroll-to-top button(optional) ✔️
 - Fix touch scroll for mobiles due to canvas size ❌
 - Media Queries needed for smaller desktop sizes ❌

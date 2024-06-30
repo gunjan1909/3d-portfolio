@@ -25,12 +25,18 @@ const Tech = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What i generally work on.</p>
+        <p className={styles.sectionSubText}>
+          <span className="lowercase">console.log</span>(
+          <b>What i generally work on.</b>)
+        </p>
         <h2 className={styles.sectionHeadText}>Technologies</h2>
         <p className=" text-secondary text-[18px] max-w-4xl leading-[30px]">
+          <h1 className="text-3xl">&lt;&gt;</h1>
           Here are some of the technologies, tech stack and programming
-          languages I use, there are many more which can be found in my Resume
-          linked above. Please feel free to take a look
+          languages I use. There are many more technologies, tech stacks,
+          softwares, tools etc. which I use and can be found in my Resume linked
+          above. Please feel free to take a look
+          <h1 className="text-3xl">&lt;/&gt;</h1>
         </p>
       </motion.div>
       {/* <motion.p
