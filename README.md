@@ -53,9 +53,8 @@ VITE_APP_TO_EMAIL=your_email_id  `
 
 #### TODOs: (for personal use)
 
-- Update the projects, and testimonials and other personal information ⏳
-- Update work experience (purplle) ✔️
-- Add a scroll-to-top button(optional) ✔️
+- Update the projects, experience and testimonials and other personal information ⏳
+- Add more social links in footer
 - Fix touch scroll for mobiles due to canvas size ❌
 - Media Queries needed for smaller desktop sizes ❌
 
