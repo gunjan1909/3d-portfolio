@@ -59,14 +59,21 @@ const About = () => {
       >
         <h1 className="text-3xl">&lt;&gt;</h1>
         An experienced Frontend Engineer with a B.Tech in Computer Science from
-        IIIT Sonepat. Skilled in JavaScript, TypeScript, React, Angular, and
-        modern UI/UX practices. Proven track record in optimizing code,enhancing
-        user experience, and resolving production issues. Proficient in Agile
-        methodologies and tools like GitLab, JIRA, and Google Cloud Console.
-        Developed impactful web applications used by thousands as\ well as
-        automation tools used by many non-technical support teams in the
-        industry. Also have knowledge of programming, C++, OOPS, problem
-        solving, DSA.
+        IIIT Sonepat and 1.5+ year of work experience. Skilled in JavaScript,
+        TypeScript, React, Angular, and modern UI/UX practices. Proven track
+        record in optimizing code, enhancing user experience, and resolving
+        production issues. Proficient in Agile methodologies and tools like
+        GitLab, JIRA, and Google Cloud Console. Developed impactful web
+        applications used by thousands as well as automation tools used by many
+        non-technical support teams in the industry. Also have knowledge of
+        programming, C++, OOPS, problem solving, DSA.
+        {/* Frontend Engineer with a B.Tech in Computer Science and Engineering(CSE)
+        from IIIT Sonepat and over 1.5 years of experience in web and UI
+        development. Proficient in JavaScript, TypeScript, React, Angular, and
+        modern UI/UX practices. Successfully optimized code, enhanced user
+        experience, and developed impactful web applications. Experienced in
+        Agile methodologies and tools like GitLab, JIRA, and Google Cloud
+        Console etc. */}
         <h1 className="text-3xl">&lt;/&gt;</h1>
       </motion.p>
       <div className="mt-20 flex flex-wrap gap-10 justify-center">
