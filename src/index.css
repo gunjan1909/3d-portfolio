@@ -218,7 +218,7 @@ body {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
   /*add box shadow*/
-  box-shadow: 10px 15px 8px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 15px 8px 1px rgba(0, 0, 0, 0.1);
 }
 
 @keyframes shake {

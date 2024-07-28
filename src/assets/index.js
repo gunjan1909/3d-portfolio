@@ -25,7 +25,7 @@ import sass from "./tech/sass.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import angular from "./tech/angular.png";
-import nextjs from "./tech/nextjs.png";
+import nextjs2 from "./tech/nextjs2.png";
 
 // company items
 
@@ -70,5 +70,5 @@ export {
   arrow,
   linktree,
   angular,
-  nextjs,
+  nextjs2,
 };

@@ -28,7 +28,7 @@ import {
   streamchat,
   portfoliotemplate,
   purplle,
-  nextjs,
+  nextjs2,
 } from "../assets";
 
 //array of links for navbar
@@ -119,7 +119,7 @@ const technologies = [
   // },
   {
     name: "NextJS",
-    icon: nextjs,
+    icon: nextjs2,
   },
 ];
 
@@ -131,13 +131,25 @@ const experiences = [
     company_url: "https://www.purplle.com/",
     icon: purplle,
     iconBg: "#f9d3e8",
-    date: "July 2023-Present",
+    date: "July 2023-July 2024",
     points: [
-      "Optimized and minified 20k+ lines of code, enhancing system efficiency, and conducted UI sanity checks and testing to ensure optimal user experience.",
-      "Successfully resolved 8-9 production bugs, implemented 4-5 new features, and addressed 30+ JIRA tickets in collaboration with QA and UI/UX teams.",
-      "Proficiency in BEM methodology, modern UI/UX practices, web vitals, GitLab, and Git branching, JIRA and Agile methodology concepts.",
-      "Solved tasks outside my usual domain, demonstrating flexibility, adaptability, solving skills.",
-      "Developed an automation tool which was used by the catalog team of 5+ members to generate product content.",
+      // "Tech Stack and skills: Angular, PDS library, HTML, SCSS, TypeScript, CSS, GitLab, JIRA, BEM Methodology, Modern UI/UX Practices, Google Apps Script, Core Web Vitals, Git Branching, Agile Methodology Concepts.",
+      // "Minified and optimized 20k+ lines of TypeScript and CSS, enhancing system efficiency and reducing LOC and bundle sizes in deployment. Resolved 10-11 production bugs, launched 5-6 new features, addressed over 30+ JIRA tickets.",
+      // "Conducted UI sanity checks, ensuring optimal UX; acquired proficiency in BEM methodology and modern UI/UX practices, reduced main-thread utilization of browser from 4+ seconds to 3+ seconds.",
+      // "Solved tasks outside my usual domain, demonstrating flexibility, adaptability, solving skills.",
+      // "Worked together closely with 2-3 teams like UI/UX, QA, etc., demonstrated flexibility by solving tasks outside the usual domain.",
+      // "Developed an automation tool in 1 week for the catalog team to generate product content, leveraged by 5+ members.",
+      // "Integrated PDS(Purplle Design System) library in listing and product modules/pages. Executed auto-scroll restore in Angular and fixed login popup errors in 2-3 days each.",
+      // "Generated an A+ content automation tool in 5 days and presented it to the product managers, implemented customer support features in 1 day.",
+      // "Added vernacular support in webview providing the feature to 30-50% users in 1 month of beta testing.",
+      // "Revamped the font family of the entire application in 2 days reducing the CSS bundle size by 50%, analyzed browser render engines for 3+ OS and devices.",
+      // "Fixed critical header/footer UI bugs (3-4), achieved pincode syncing feature in 1 week, resolved pageview event errors, product widget UI fixes, payment and wishlist page bugs in 2 days.",
+      "Tech Stack: Angular, PDS library, HTML, SCSS, TypeScript, CSS, GitLab, JIRA, BEM Methodology, Modern UI/UX Practices, Google Apps Script, Core Web Vitals, Git Branching, Agile Methodology.",
+      "Optimized System Performance: Minified and optimized 20k+ lines of TypeScript and CSS, launched 5-6 new features, and resolved 10-11 production bugs, enhancing system efficiency and reducing deployment bundle sizes.",
+      "UI/UX Enhancements: Conducted UI sanity checks, acquired proficiency in BEM methodology, and reduced main-thread utilization from 4+ to 3+ seconds, ensuring optimal user experience.",
+      "Cross-Team Collaboration: Worked closely with UI/UX and QA teams, demonstrated flexibility by solving tasks outside the usual domain, and addressed over 30+ JIRA tickets.",
+      "Automation and Tools Development: Developed an automation tool for the catalog team in 1 week, used by 5+ members, and generated an A+ content automation tool in 5 days, presented to product managers.",
+      "Feature Integration and Bug Fixes: Integrated PDS library, added vernacular support to webview for 30-50% of users, and fixed critical UI bugs and payment/wishlist page issues, achieving significant improvements within tight deadlines",
     ],
   },
   {
@@ -148,9 +160,12 @@ const experiences = [
     iconBg: "#fff",
     date: "Nov 2021 - Mar 2022",
     points: [
-      "Worked as Web developer for 5 months.",
-      "Revamped production ready website for a US based company in 4 months with 1000+ users and performed debugging.",
-      "Co-created a JavaScript grit assessment app with a team of 3.",
+      "Tech Stack & Skills: HTML, CSS, JavaScript, Bootstrap, jQuery, AJAX, Chart.js, p5.js, Django, Flask, Docker, SASS, SCSS, Linux-based server management, SSH for secure server connections.",
+      "Efficiently overhauled a production-ready website for a US-based company, revamped it within 4 months, catering to 1000+ users.",
+      "Conducted thorough debugging of backend API responses and coordinated with 2 backend developers to ensure a seamless user experience.",
+      "Cocreated a JavaScript-based grit assessment app, engaged with a team of 3, showcasing strong teamwork and collaboration skills.",
+      "Regularly built and containerized the web application using Docker, and deployed it on a remotely hosted server, leading to a 30% reduction in deployment time.",
+      "Expertly managed Linux-based servers and utilized SSH for secure connections, establishing the same setup for 2 other developers.",
     ],
   },
   {
@@ -161,9 +176,12 @@ const experiences = [
     iconBg: "#000",
     date: "Oct 2021 - Dec 2021",
     points: [
-      "Contributed as an assistant frontend developer for 2 months.",
-      "Developed the UI for Fashion Panda website with 1500+ users.",
-      "Learned about new 2-3 frontend libraries and frameworks.",
+      "Tech Stack & Skills: HTML, CSS, JavaScript, Bootstrap, DOM Manipulation, Dev Tools, Figma.",
+      "Coded and engineered the UI for the Fashion Panda website using HTML, CSS, JavaScript, and Bootstrap, catering to 1500+ users.",
+      "Learned and gained knowledge of 2-3 new frontend libraries and frameworks, including Bootstrap.",
+      "Reinforced and strengthened web development fundamentals in HTML, CSS, JavaScript, DOM manipulation, Bootstrap, 2-3 CSS libraries, dev tools, and Figma.",
+      "Designed and assembled 1-2 website clones, updated the UIs, and converted wireframes and Figma designs into pixel-perfect code.",
+      "Delivered high-quality, pixel-perfect implementation of 4-5 Figma designs for optimal user experience showcasing scrupulousness.",
     ],
   },
 ];
@@ -172,27 +190,33 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    name: "Jane Doe",
-    designation: "CFO",
-    company: "Lorem Ipsum",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Gunjan's expertise in Frontend development and deep knowledge of CSS are unparalleled. Working with Gunjan on different critical tasks was a pleasure for me.",
+    name: "Adnan Ahmad",
+    designation: "SDE Associate",
+    company: "Purplle.com",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQEQaenl5MDZiQ/profile-displayphoto-shrink_800_800/0/1691626109448?e=1727913600&v=beta&t=z6nhF1yzmXCyB5GDUOFENVrHoxHMynypvPKrMlJ5_iY",
   },
   {
     testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    name: "John Doe",
-    designation: "COO",
-    company: "Ipsum Lorem",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "Gunjan's rapid learning ability and enthusiastic approach make him a valuable asset. His strong knowledge base and disciplined work ethic set him apart.",
+    name: "Varun Rana",
+    designation: "SDE-II(Frontend)",
+    company: "Purplle.com",
+    // image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image:
+      "https://media.licdn.com/dms/image/C4D03AQGbGGeBYiJcsQ/profile-displayphoto-shrink_800_800/0/1660215048331?e=1727913600&v=beta&t=CsuxtAsANF9dI2EllcH6LeXd5dxWk1ClKo8xau0TDn8",
   },
   {
     testimonial:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.",
-    name: "Jane John",
-    designation: "CFO",
-    company: "Lorem Ipsum",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I was consistently impressed by Gunjan's enthusiasm and quick learning. His tech skills, disciplined work ethic make him a standout team member.",
+    name: "Jyotikant Nadi",
+    designation: "SDE-II(Frontend)",
+    company: "Purplle.com",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image:
+      "https://media.licdn.com/dms/image/C5603AQHzd-QlQ3t-Xw/profile-displayphoto-shrink_800_800/0/1619694793305?e=1727913600&v=beta&t=Gx6OgrfSQXlrw-iRc0w9gUZws4sQ8ogtzw6TdBQQ-uw",
   },
 ];
 
