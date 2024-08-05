@@ -190,17 +190,7 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "Gunjan's expertise in Frontend development and deep knowledge of CSS are unparalleled. Working with Gunjan on different critical tasks was a pleasure for me.",
-    name: "Adnan Ahmad",
-    designation: "SDE Associate",
-    company: "Purplle.com",
-    // image: "https://randomuser.me/api/portraits/women/4.jpg",
-    image:
-      "https://media.licdn.com/dms/image/D4D03AQEQaenl5MDZiQ/profile-displayphoto-shrink_800_800/0/1691626109448?e=1727913600&v=beta&t=z6nhF1yzmXCyB5GDUOFENVrHoxHMynypvPKrMlJ5_iY",
-  },
-  {
-    testimonial:
-      "Gunjan's rapid learning ability and enthusiastic approach make him a valuable asset. His strong knowledge base and disciplined work ethic set him apart.",
+      "Gunjan's rapid learning ability and enthusiastic approach make him a valuable asset. His strong knowledge base and disciplined work ethic set him apart. I highly recommend working with Gunjan.",
     name: "Varun Rana",
     designation: "SDE-II(Frontend)",
     company: "Purplle.com",
@@ -210,13 +200,23 @@ const testimonials = [
   },
   {
     testimonial:
-      "I was consistently impressed by Gunjan's enthusiasm and quick learning. His tech skills, disciplined work ethic make him a standout team member.",
+      "I was consistently impressed by Gunjan's enthusiasm and quick learning. His tech skills, disciplined work ethic make him a standout team member, highly recommended for Frontend and Web.",
     name: "Jyotikant Nadi",
     designation: "SDE-II(Frontend)",
     company: "Purplle.com",
     // image: "https://randomuser.me/api/portraits/women/4.jpg",
     image:
       "https://media.licdn.com/dms/image/C5603AQHzd-QlQ3t-Xw/profile-displayphoto-shrink_800_800/0/1619694793305?e=1727913600&v=beta&t=Gx6OgrfSQXlrw-iRc0w9gUZws4sQ8ogtzw6TdBQQ-uw",
+  },
+  {
+    testimonial:
+      "Gunjan's expertise in Frontend development and deep knowledge of CSS are unparalleled. Working & learning with Gunjan on different critical tasks was a pleasure. Strongly recommend him.",
+    name: "Adnan Ahmad",
+    designation: "Associate SDE",
+    company: "Purplle.com",
+    // image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image:
+      "https://media.licdn.com/dms/image/D4D03AQEQaenl5MDZiQ/profile-displayphoto-shrink_800_800/0/1691626109448?e=1727913600&v=beta&t=z6nhF1yzmXCyB5GDUOFENVrHoxHMynypvPKrMlJ5_iY",
   },
 ];
 
