@@ -53,18 +53,18 @@ VITE_APP_TO_EMAIL=your_email_id  `
 
 #### TODOs: (for personal use)
 
-- Update the projects, experience and testimonials and other personal information ⏳
-- Add more social links in footer
+- Update the projects, experience and testimonials and other personal information. ⏳
+- Add more social links in footer. ✅
 - Fix touch scroll for mobiles due to canvas size ❌
 - Media Queries needed for smaller desktop sizes ❌
 
-#### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices. - Added useEffect, u will see icosahedronGeometry sphere balls in devices width 768px and above, and normal circular divs in smaller devices
+#### The 3js webgl of ballcanvas had to be replaced because there were too many canvas and it was not supporting phone devices. - Added useEffect, u will see icosahedronGeometry sphere balls in devices width 768px and above, and normal circular divs in smaller devices.
 
-#### No resolve found for WebGL Canvas limit of 16 at once in browsers 😔
+#### No resolve found for WebGL Canvas limit of 16 at once in browsers. 😔
 
 #### FIX: Kept the technologies at max 12 so limit is not exceeded.
 
-<br><br>
+<br>
 
 <p align="center">
   <a href="https://vitejs.dev" target="_blank" rel="noopener noreferrer">

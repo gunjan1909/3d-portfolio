@@ -54,7 +54,7 @@ const About = () => {
         <h2 className={styles.sectionHeadText}>Overview</h2>
       </motion.div>
       <motion.p
-        className="mt-4 text-secondary text-[18px] max-w-4xl leading-[30px]"
+        className="mt-4 text-secondary text-[18px] max-w-5xl leading-[30px]"
         variants={fadeIn("", "", 0.1, 1)}
       >
         <h1 className="text-3xl">&lt;&gt;</h1>
@@ -66,7 +66,9 @@ const About = () => {
         GitLab, JIRA, and Google Cloud Console. Developed impactful web
         applications used by thousands as well as automation tools used by many
         non-technical support teams in the industry. Also have knowledge of
-        programming, C++, OOPS, problem solving, DSA.
+        programming, C++, OOPS, problem solving, DSA. Currently looking for
+        Frontend Developer/Engineer roles and preparing for higher studies/post
+        graduation.
         {/* Frontend Engineer with a B.Tech in Computer Science and Engineering(CSE)
         from IIIT Sonepat and over 1.5 years of experience in web and UI
         development. Proficient in JavaScript, TypeScript, React, Angular, and
