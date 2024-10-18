@@ -39,6 +39,11 @@ import healthmanagement from "./healthmanagement.png";
 import streamchat from "./streamchat.png";
 import portfoliotemplate from "./portfoliotemplate.png";
 
+// testimonials images
+import varun from "./testimonial/Varun Rana.png";
+import adnan from "./testimonial/Adnan.jpg";
+import jyoti from "./testimonial/Jyotikant.jpg";
+
 export {
   logo,
   backend,
@@ -71,4 +76,7 @@ export {
   linktree,
   angular,
   nextjs2,
+  varun,
+  adnan,
+  jyoti,
 };

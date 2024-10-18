@@ -29,6 +29,9 @@ import {
   portfoliotemplate,
   purplle,
   nextjs2,
+  varun,
+  adnan,
+  jyoti,
 } from "../assets";
 
 //array of links for navbar
@@ -195,8 +198,7 @@ const testimonials = [
     designation: "SDE-II(Frontend)",
     company: "Purplle.com",
     // image: "https://randomuser.me/api/portraits/men/5.jpg",
-    image:
-      "https://media.licdn.com/dms/image/C4D03AQGbGGeBYiJcsQ/profile-displayphoto-shrink_800_800/0/1660215048331?e=1727913600&v=beta&t=CsuxtAsANF9dI2EllcH6LeXd5dxWk1ClKo8xau0TDn8",
+    image: varun,
   },
   {
     testimonial:
@@ -205,8 +207,7 @@ const testimonials = [
     designation: "SDE-II(Frontend)",
     company: "Purplle.com",
     // image: "https://randomuser.me/api/portraits/women/4.jpg",
-    image:
-      "https://media.licdn.com/dms/image/C5603AQHzd-QlQ3t-Xw/profile-displayphoto-shrink_800_800/0/1619694793305?e=1727913600&v=beta&t=Gx6OgrfSQXlrw-iRc0w9gUZws4sQ8ogtzw6TdBQQ-uw",
+    image: jyoti,
   },
   {
     testimonial:
@@ -215,8 +216,7 @@ const testimonials = [
     designation: "Associate SDE",
     company: "Purplle.com",
     // image: "https://randomuser.me/api/portraits/women/4.jpg",
-    image:
-      "https://media.licdn.com/dms/image/D4D03AQEQaenl5MDZiQ/profile-displayphoto-shrink_800_800/0/1691626109448?e=1727913600&v=beta&t=z6nhF1yzmXCyB5GDUOFENVrHoxHMynypvPKrMlJ5_iY",
+    image: adnan,
   },
 ];
 
