@@ -58,17 +58,16 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
       >
         <h1 className="text-3xl">&lt;&gt;</h1>
-        An experienced Frontend Engineer with a B.Tech in Computer Science from
-        IIIT Sonepat and 1.5+ year of work experience. Skilled in JavaScript,
-        TypeScript, React, Angular, and modern UI/UX practices. Proven track
-        record in optimizing code, enhancing user experience, and resolving
-        production issues. Proficient in Agile methodologies and tools like
-        GitLab, JIRA, and Google Cloud Console. Developed impactful web
-        applications used by thousands as well as automation tools used by many
-        non-technical support teams in the industry. Also have knowledge of
-        programming, C++, OOPS, problem solving, DSA. Currently looking for
-        Frontend Developer/Engineer roles and preparing for higher studies/post
-        graduation.
+        An MBA student in IIM Raipur and an experienced Frontend Engineer with a
+        B.Tech in Computer Science from IIIT Sonepat and 1.5+ year of work
+        experience. Skilled in JavaScript, TypeScript, React, Angular, and
+        modern UI/UX practices. Proven track record in optimizing code,
+        enhancing user experience, and resolving production issues. Proficient
+        in Agile methodologies and tools like GitLab, JIRA, and Google Cloud
+        Console. Developed impactful web applications used by thousands as well
+        as automation tools used by many non-technical support teams in the
+        industry. Also have knowledge of programming, C++, OOPS, problem
+        solving, DSA.
         {/* Frontend Engineer with a B.Tech in Computer Science and Engineering(CSE)
         from IIIT Sonepat and over 1.5 years of experience in web and UI
         development. Proficient in JavaScript, TypeScript, React, Angular, and

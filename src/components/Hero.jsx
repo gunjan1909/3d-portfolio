@@ -20,9 +20,9 @@ const Hero = () => {
             &lt;/&gt;
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Frontend Engineer, Web Developer and UI/UX developer,
+            I'm an MBA student in IIM Raipur and a Frontend Engineer,
             <br className="sm:block hidden" />
-            with a B.Tech. degree in Computer Science and Engineering.
+            Web Developer and an UI/UX developer, with a B.Tech. in CSE.
           </p>
         </div>
       </div>

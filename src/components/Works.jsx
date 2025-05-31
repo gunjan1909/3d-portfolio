@@ -112,8 +112,8 @@ const Works = () => {
           through real-world examples of my work. Each project has brief
           description along with links to code repositories . It reflects my
           ability to solve complex problems, work with different technologies,
-          and manage projects effectively. Note that these are not
-          latest/updated.
+          and manage projects effectively.{" "}
+          <strong>Note that these are not latest/updated.</strong>
           <h1 className="text-3xl">&lt;/&gt;</h1>
         </motion.p>
       </div>
