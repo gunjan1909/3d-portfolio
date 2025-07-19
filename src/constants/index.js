@@ -65,7 +65,7 @@ const services = [
     icon: creator,
   },
   {
-    title: "Debugging, Testing, Deployment",
+    title: "Process Optimization & Automation",
     icon: mobile,
   },
 ];

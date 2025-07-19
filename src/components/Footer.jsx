@@ -33,7 +33,7 @@ const Footer = () => {
           size="2xl"
           style={{ cursor: "pointer" }}
           onClick={() =>
-            window.open("https://www.instagram.com/gunjan.ab/", "_blank")
+            window.open("https://www.instagram.com/bhanarkargunjan/", "_blank")
           }
           className="shakeit"
         />
